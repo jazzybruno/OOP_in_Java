@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
    int x = 12;
    String name = "Jazzy Bruno";
@@ -10,5 +12,9 @@ public class Main {
         System.out.println(myObj.x);
         System.out.println(myObj.name);
         myObj.Greet(myObj.name);
+
+
+        Scanner myobject = new Scanner(System.in);
+        myobject.nextLine();
     }
 }
