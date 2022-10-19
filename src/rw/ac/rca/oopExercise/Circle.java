@@ -17,4 +17,9 @@ public class Circle extends Shape{
     public void mySpecificName(){
         System.out.println("I am specifically a circle");
     }
+
+    public float area(float radius){
+        float area = (float) (radius * radius * 3.142);
+        return area;
+    }
 }

@@ -23,4 +23,9 @@ public class Triangle extends Shape {
     public void sayNAme(){
         System.out.println("I am the child class Triangle");
     }
+
+    public float area(float base , float height){
+        float area = (float) 1/2 * height * base;
+        return area;
+    }
 }

@@ -23,4 +23,9 @@ public class Shape {
     public void sayNAme(){
         System.out.println("I am the super class Shape");
     }
+
+    public float area(float radius) {
+        System.out.println("This should be the area");
+        return (float) 0.56;
+     }
 }

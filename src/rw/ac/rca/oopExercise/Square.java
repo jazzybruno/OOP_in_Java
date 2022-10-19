@@ -14,4 +14,9 @@ public class Square extends Shape  {
    public void sayNAme(){
       System.out.println("I am the child class Square");
    }
+
+   public float area(float side){
+      float area = (float) side * side;
+      return area;
+   }
 }
